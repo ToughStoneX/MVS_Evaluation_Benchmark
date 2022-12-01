@@ -119,6 +119,8 @@ bash scripts/demo_gtasfm_recon.sh
 
 ## Format of Results
 
+### BlendedMVS
+
 Results of evaluation on BlendedMVS saved in `results_blendedmvs.txt`. The mean values of `F-score`, `Precision`, and `Recall` is used as overall measure of reconstruction quality.
 > [number of scenes] \
 > [scene name] [F-score] [Precision] [Recall] \
@@ -135,3 +137,33 @@ Example:
 > 5ba19a8a360c7c30c1c169df 0.5094 0.9073 0.3541 \
 > 59817e4a1bd4b175e7038d19 0.4311 0.8461 0.2892 \
 > mean 0.3779 0.4627 0.3907
+
+### GTASFM
+
+Results of evaluation on BlendedMVS saved in `results_gtasfm.txt`. The mean values of `F-score`, `Precision`, and `Recall` is used as overall measure of reconstruction quality.
+> [number of scenes] \
+> [scene name] [F-score] [Precision] [Recall] \
+> ...... \
+> mean [F-score] [Precision] [Recall]
+
+Example:
+> 18 \
+> 20190127_154841 0.3909 0.4918 0.3244 \
+> 20190127_160317 0.4356 0.3945 0.4863 \
+> 20190127_160737 0.4320 0.5644 0.3499 \
+> 20190127_161129 0.4029 0.4709 0.3520 \
+> 20190127_161419 0.3003 0.2232 0.4588 \
+> 20190127_161922 0.5562 0.6045 0.5150 \
+> 20190127_162256 0.3947 0.3751 0.4164 \
+> 20190127_162742 0.3372 0.2978 0.3885 \
+> 20190127_163215 0.4500 0.4278 0.4746 \
+> 20190127_163742 0.2646 0.4350 0.1901 \
+> 20190127_164516 0.4432 0.4678 0.4211 \
+> 20190127_164840 0.3960 0.4050 0.3875 \
+> 20190127_165303 0.4906 0.6512 0.3936 \
+> 20190127_165928 0.3216 0.3447 0.3014 \
+> 20190127_171304 0.4185 0.5097 0.3549 \
+> 20190221_174234 0.4645 0.4943 0.4380 \
+> 20190221_174830 0.4435 0.4741 0.4166 \
+> 20190221_175345 0.5023 0.5376 0.4713 \
+> mean 0.4136 0.4538 0.3967
