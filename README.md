@@ -24,10 +24,14 @@ This repository was originally used for supplementary evaluation of our paper an
 
 ## Data
 
- - You can download the BlendedMVS MVS dataset from [here]().
+ - You can download the BlendedMVS MVS dataset from [here](https://mogface.oss-cn-zhangjiakou.aliyuncs.com/xhb/datasets/blendedmvs/BlendedMVS.zip).
+ - Unzip the compressed file with `unzip BlendedMVS.zip`.
  - You can download our processed ground truth point clouds of BlendedMVS from [here](https://mogface.oss-cn-zhangjiakou.aliyuncs.com/xhb/share/mvs_evaluation_benchmark/blendedmvs_ground_truth/Points.tar.gz).
- - You download our processed GTASFM MVS dataset from [here]().
+ - Unzip the compressed file with `tar -zxvf Points.tar.gz`.
+ - You download our processed GTASFM MVS dataset from [here](https://mogface.oss-cn-zhangjiakou.aliyuncs.com/xhb/datasets/gta_sfm/gta_sfm_clean.tar.gz).
+ - Unzip the compressed file with `tar -zxvf gta_sfm_clean.tar.gz`.
  - You can download our processed ground truth point clouds of GTASFM from [here](https://mogface.oss-cn-zhangjiakou.aliyuncs.com/xhb/share/mvs_evaluation_benchmark/gtasfm_ground_truth/Points.zip).
+ - Unzip the compressed file with `tar -zxvf Points.zip`.
 
 ## Environment
 
