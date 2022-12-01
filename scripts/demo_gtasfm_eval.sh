@@ -6,3 +6,6 @@ CUDA_VISIBLE_DEVICES=2 python eval_gtasfm.py \
     --prefix "mvsnet" \
     --pcs_path ${PCS_PATH} \
     --gts_path ${GTS_PATH}
+
+
+    
