@@ -9,12 +9,13 @@ This is a customized Multi-view Stereo (MVS) evaluation benchmark built on Blend
  - [2022-12-01] Upload evaluation code of BlendedMVS.
  - [2022-12-01] Upload our processed MVS dataset for BlendedMVS evaluation.
  - [2022-12-01] Upload our processed ground truth for BlendedMVS evaluation.
+ - [2022-12-01] Upload evaluation code of GTA-SFM.
+ - [2022-12-01] Upload our processed ground truth for GTA-SFM evaluation.
+ - [2022-12-01] Upload our processed ground truth for GTA-SFM evaluation.
 
 ## To-do
 
- - Upload evaluation code of GTA-SFM.
- - Upload our processed ground truth for GTA-SFM evaluation.
- - Upload our processed ground truth for GTA-SFM evaluation.
+ - Run several MVS models on these benchmarks and create a leaderboard comparison.
  
 
 ## Brief Introduction
@@ -167,3 +168,17 @@ Example:
 > 20190221_174830 0.4435 0.4741 0.4166 \
 > 20190221_175345 0.5023 0.5376 0.4713 \
 > mean 0.4136 0.4538 0.3967
+
+
+## Citaion
+
+Our paper related to this repository is still in submission.
+If you find this code useful, please cite the related works.
+```
+@article{xu2022semi,
+  title={Semi-supervised Deep Multi-view Stereo},
+  author={Xu, Hongbin and Zhou, Zhipeng and Cheng, Weitao and Sun, Baigui and Li, Hao and Kang, Wenxiong},
+  journal={arXiv preprint arXiv:2207.11699},
+  year={2022}
+}
+```
